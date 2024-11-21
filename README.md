@@ -17,13 +17,14 @@ use the new time.
  
  
 Connection for RP2040 boards are:
+```javascript
   board  DS3231
   3v3    VCC  
   GND    GND  
   GPIO0  SDA
   GPIO1  SCL
   GPIO2  INT/SQW
-  
+```
 hope you can find this code useful for some of your projects
 
 
@@ -35,7 +36,8 @@ For LINUX users:
   
   or better using the included bash script, that sends time through 
   serial line of choice when precise "00" seconds occour:
-  
+
+```javascript  
   #!/bin/bash
   
   test=true
@@ -53,3 +55,4 @@ For LINUX users:
                   sleep 0.001
           fi
   done
+```
