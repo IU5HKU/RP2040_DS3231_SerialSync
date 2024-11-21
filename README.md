@@ -56,3 +56,4 @@ For LINUX users:
           fi
   done
 ```
+Submitting the epoch trough the serial sets also the internal rp2040 rtc, when you reset the board the rtc gets losts, but not the DS3231, by pressing the "boot" button the rtc will be sets accordingly to the DS3231 time again. 
