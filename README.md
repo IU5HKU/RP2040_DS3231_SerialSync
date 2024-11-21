@@ -7,6 +7,7 @@ also if they aren't a RP2040 based one, (with the necessaries mods) and with the
 The source code needs these two libraries:
   - NeoPixelConnect Library by Alan Yorinks (https://github.com/MrYsLab/NeoPixelConnect)
   - DS3231 Library by Wickert, A. D., Sandell, C. T., Schulz, B., & Ng, G. H. C. (https://github.com/NorthernWidget/DS3231)
+
 and you can find both on ArduinoIDE Library Manager
   
 It's an attempt to sync DS3231 time using only serial port and nothing else, there is a bash script
